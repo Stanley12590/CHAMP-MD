@@ -216,7 +216,7 @@ async function helpCommand(sock, chatId, message) {
 https://whatsapp.com/channel/0029VaN2eQQ59PwNixDnvD16 :`;
 
     try {
-        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
+        const imagePath = path.join(__dirname, '../assets/bot_image.png');
         
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
